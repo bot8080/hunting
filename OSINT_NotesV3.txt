@@ -1,0 +1,66 @@
+url/Domains/IP/DNS	: robtex.com, https://domainbigdata.com/, harvester, https://www.threatcrowd.org/domain.php?domain=, http://www.crimeflare.org:82/cfs.html#box(bypass cloudflare),https://pulsedive.com/browse/,virustotal.com, https://censys.io/(bypass cloudflare[80.http.get.headers.server: cloudflare]), https://searchdns.netcraft.com/, https://dnsdumpster.com/, 
+			  https://securitytrails.com/#search, https://whoisology.com/, http://spyonweb.com/
+			  https://ipleak.net/, https://browserleaks.com/, 
+			
+Devices			: shodan
+
+Usernames/Names/Emails	: harvester, haveibeenpwned.com, skymem.info, https://emailrep.io/, http://mailtester.com/testmail.php, https://thatsthem.com/reverse-email-lookup, https://toolbox.googleapps.com/apps/messageheader/, spiderfoot, https://github.com/khast3x/h8mail,https://email-finder.herokuapp.com/
+			  https://www.myallsearch.com/, https://www.findemails.com/, https://infoempresa.com(spain), rocketreach(chrome extension), knowem.com, 
+			  https://infotracer.com/email-lookup/(paid), omail.io, https://maildb.io/(10 search free),https://weleakinfo.com/
+
+Public Exploits/Codes	: searchcode.com ,https://www.exploit-db.com/search, https://nvd.nist.gov/vuln/search, https://sploitus.com/?query=, https://www.rapid7.com/db/?q=, https://www.cvedetails.com/google-search-results.php?q=, https://cxsecurity.com/exploit/1
+
+Persons/Files/images	: searx.me, https://leadferret.com/search, spytox.com, google dorks,maltego, metagoofil, tineye.com, pipl.com(paid), https://search.privacytools.io/, https://findpeoplesearch.com/(only in US/paid), https://dehashed.com/(paid)
+			  https://www.peoplesearch.com.au/(people in Australia), https://www.mylife.com/people-search/(US), https://www.peekyou.com/(US)				
+			  https://en.nalog.io/inn(good for finding working prof & enterpreneurs)				
+
+ML/AI		   : recorded future
+
+credit card	   : annualcreditreport.com(only for US), https://github.com/itsmehacker/CardPwn
+
+Access points/wifi : wigle.net, https://www.wifimap.io
+
+Darkweb		   : https://github.com/dirtyfilthy/freshonions-torscraper, onionscan, https://darksearch.io/, https://ahmia.fi/, https://github.com/DedSecInside/TorBot
+		   : Censys.io(443.https.tls.certificate.parsed.names: onion), shodan(ssl:“.onion”), https://metrics.torproject.org/exonerator.html(ip for tor usage)	
+
+Phone		   : https://numverify.com/ , https://www.numberguru.com, https://www.reverse-lookup.co/, https://tel-search.ru & lexrealt.ru/numbers(Russian) ,bmobile.in(India), https://www.nationalcellulardirectory.com/(US)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+web tools : https://intelx.io/ , https://www.hunch.ly/ , https://osintframework.com/, https://github.com/DedSecInside/TorBot
+https://www.google.com/alerts
+https://www.facebook.com/search/people/?q=people&epa=FILTERS&filters=e30
+(how to use above link: https://gist.github.com/nemec/2ba8afa589032f20e2d6509512381114)
+
+facebook  : https://searchisback.com/, https://sowdust.github.io/fb-search/, graph.tips, https://gist.github.com/xmellado/d55a29055b958ebb4f9686e3f4d6caf6, 
+	    https://whopostedwhat.com/, https://github.com/sowdust/ffff(friend graph and links),https://gist.github.com/nemec/2ba8afa589032f20e2d6509512381114
+Instagram : https://www.inst4gram.com/#
+Twitter	  : https://n0where.net/twitter-osint-tool-tinfoleak(https://tinfoleak.com/), https://snapbird.org/
+Linkedin  : https://rocketreach.co/, https://hunter.io, https://github.com/0x09AL/raven, https://github.com/eth0izzle/the-endorser,
+	    https://recruitin.net/#, https://github.com/leapsecurity/InSpy, aeroleads(chrome extension,paid), https://www.egrabber.com/emailprospector/(free trial), LeadLeaper(chrome extension)
+
+
+OSINT tools list : 
+https://github.com/Ph055a/OSINT-Collection#menu
+https://github.com/jivoi/awesome-osint
+https://osint.link/
+https://github.com/lockfale/OSINT-Framework
+https://github.com/enaqx/awesome-pentest#osint-tools
+http://workinukraine.space/
+https://github.com/kownet/osint-series
+https://docs.osint.rest (API for osint)
+
+Web-harvestors:
+-scrapebox.com
+-web-harvest
+
+File search: 
+-https://www.pconlife.com
+
+For number forwarding:
+https://my.exotel.com/
+
+For text search:
+http://haystacksearch.org/
+
+
+
+
