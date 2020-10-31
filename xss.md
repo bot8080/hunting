@@ -1,40 +1,18 @@
-**Cross Site Request Forgery(CSRF)**
-
-Hello Guys, I Tried My Best To Share all The CSRF Bypasses I Know.
-I Hope This Will Help You.
+**REFLECTED**
 
 ```
--Change Request Method [POST => GET]
-
--Remove Total Token Parameter
-
--Remove The Token, And Give a Blank Parameter
-
--Copy a Unused Valid Token , By Dropping The Request and Use That Token
-
--Use Own CSRF Token To Feed it to Victim
-
--Replace Value With Of A Token of Same Length 
-
--Reverse Engineer The Token
-
--Extract Token via HTML injection
-
--Switch From Non-Form `Content-Type: application/json` or `Content-Type: application/x-url-encoded` To `Content-Type: form-multipart`
-
--Bypass the regex
-  If the site is looking for “bank.com” in the referer URL, maybe “bank.com.attacker.com” or “attacker.com/bank.com” will work.
-    
--Remove the referer header (add this <meta name=”referrer” content=”no-referrer”> in your payload or html code)
-
--Clickjacking
-
-  (If you aren’t familiar with clickjacking attacks, more information can be found https://owasp.org/www-community/attacks/Clickjacking.)
-  Exploiting clickjacking on the same endpoint bypasses all CSRF protection. Because technically, the request is indeed originating from the legitimate site. If the page where   the vulnerable endpoint is located on is vulnerable to clickjacking, all CSRF protection will be rendered irrelevant and you will be able to achieve the same results as a CSRF   attack on the endpoint, albeit with a bit more effort.
+- Input a unique value and check whether it is reflected or not on website
+- then <script> alert("hello")</script>
 	
-
-
 ```
+
+**Stored XSS**
+```
+- Two methods to make changes to DB : Find Comment Box or Sign Up etc. so that we can make changes to the DB
+- Find Edit Profile like options so that we can make changes to the database.
+- Find Input boxes that are vulnerable by using <script>
+```
+
 
 ### References
 [Medium Writeup](https://medium.com/swlh/intro-to-csrf-cross-site-request-forgery-9de669df03de)
