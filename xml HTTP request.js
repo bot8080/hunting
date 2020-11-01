@@ -18,6 +18,7 @@ function cors()
     xhttp.send();
 }
 
+#############################################################################
 // Get all users
 var url  = "http://localhost:8080/api/v1/users";
 var xhr  = new XMLHttpRequest()
@@ -31,7 +32,6 @@ xhr.onload = function () {
 	}
 }
 xhr.send(null);
-#############################################################################
 
 // Get a user
 var url  = "http://localhost:8080/api/v1/users";
